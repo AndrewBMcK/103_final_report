@@ -1,0 +1,63 @@
+/* Global */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(240, 236, 236);
+}
+.font1{
+    font-weight: 100;
+}
+.font2{
+    font-weight: 400;
+}
+.font3{
+    font-weight: 500;
+}
+
+input {
+    height: 40px;
+    width: 300px;
+}
+
+/* Header */
+
+header {
+    background-color: black;
+}
+header h1 {
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-size: 55px;
+}
+
+/* Main */
+
+main h2 {
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+
+main div {
+    text-align: center;
+    font-size: 25px;
+}
+
+#tasks {
+    height: 60vh;
+    width: 90%;
+    background-color: white;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.submit-btn {
+    margin: auto;
+}

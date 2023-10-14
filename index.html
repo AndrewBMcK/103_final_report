@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/todolist.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1 class="header h1">To Do</h1></a>
+    </header>
+
+    <main>
+        <h2>Daily Tasks</h2>
+        <div>
+            <p><b>Task :</b></p>
+            <input id="taskTitle" type="text"> 
+        </div>
+
+        <div>
+            <p><b>Time :</b></p>
+            <input id="taskTime" type="time"> 
+        </div>
+        <div><button class="submit-btn" onclick="addTask()">Submit</button></div>
+
+        <div id="tasks"></div>
+    </main>
+
+    <script src="/scripts/todo.js"></script>
+
+</body>
+</html>
